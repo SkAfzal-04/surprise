@@ -1,0 +1,56 @@
+* {
+    background-image: url("cute_couple.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.emoji {
+    height: 200px;
+}
+
+.emojibox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.text {
+    margin-top: 46px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 900;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+}
+button {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Pastel gradient */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Add spacing */
+    font-size: 1rem; /* Adjust font size */
+    color: white; /* Text color */
+    font-weight: bold; /* Make text stand out */
+    cursor: pointer; /* Pointer cursor for hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth animation */
+}
+
+button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Add depth */
+}
+
+button:active {
+    transform: scale(0.95); /* Shrink slightly on click */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Reduce shadow */
+}
+
+.btnyes{
+    margin-right: 1rem;
+}
